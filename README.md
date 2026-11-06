@@ -54,3 +54,7 @@ Bind `python -m desktop_toolkit.rofi` to a desktop shortcut, using this checkout
 Automated tests use temporary directories and mocked mount/audio/launcher interfaces. Tests cover archive round-trip, mount mismatch, staged-restore overwrite rejection, symlinks, traversal, tampering, dry-run behavior and launcher isolation. A fixture restore is tested; restoring a real user's complete desktop and interactive Rofi/audio behavior on multiple distributions remain manual checks.
 
 Original implementation by Terry (Romme) Felton, adapted from his personal CachyOS workflow with AI assistance. MIT licensed. Proposed changes should include a reproduction/test and avoid bundling personal dotfiles, binaries or credentials.
+
+## How this started
+
+[Read the project history](docs/PROJECT_HISTORY.md) for the original problem, the choices behind the first release and the checks that still need hands-on verification.
