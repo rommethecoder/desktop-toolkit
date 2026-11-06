@@ -1,0 +1,13 @@
+{
+  "destination": "/run/media/your-user/your-backup-drive/desktop-backups",
+  "mount_uuid": "REPLACE_WITH_FINDMNT_UUID",
+  "paths": [
+    ".config/kdeglobals",
+    ".config/breezerc",
+    ".config/kglobalshortcutsrc",
+    ".config/kwinrc",
+    ".config/kwinrulesrc",
+    ".config/plasma-org.kde.plasma.desktop-appletsrc",
+    ".config/rofi"
+  ]
+}

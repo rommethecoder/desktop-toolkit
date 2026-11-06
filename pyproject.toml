@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "romme-desktop-toolkit"
+version = "0.1.0"
+description = "Explicit KDE desktop settings backups and small Linux desktop utilities"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Terry (Romme) Felton"}]
+
+[project.scripts]
+desktop-backup = "desktop_toolkit.backup:main"
+audio-toggle = "desktop_toolkit.audio:main"
+rofi-toggle = "desktop_toolkit.rofi:main"
+
+[tool.setuptools.packages.find]
+include = ["desktop_toolkit*"]
