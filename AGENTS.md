@@ -1,1 +1,5 @@
 Read README.md and relevant source before changes. Keep examples synthetic and preserve the distinction between local checks, live deployment and physical-device verification. Do not publish personal settings, device identifiers, credentials, original firmware or database exports. Run the documented tests, update README/release notes for changed behavior, and record verification limits. Human contributors remain responsible for understanding and maintaining AI-assisted changes.
+
+## Commit history
+
+The owner requires multiple focused commits for substantive work, especially public projects. Commit each coherent, reviewable step with a specific subject and a body explaining the change, its purpose and relevant verification. Keep formatting, functional changes and documentation separate when that improves review. Do not fabricate intermediate history after the work is complete, create empty/cosmetic commits to inflate activity, squash meaningful steps, or rewrite published history without an explicit request. Batch pushes until the intended release is verified when a branch auto-deploys.
